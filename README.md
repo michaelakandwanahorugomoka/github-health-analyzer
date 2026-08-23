@@ -27,54 +27,40 @@ A context-aware repository health and production-readiness auditor built with Py
                                                 ▼
 [Exportable .md Report] ◄── [Streamlit UI] ◄── [Adaptive Scoring Engine]
 
-```
+🛠️ Tech Stack
 
----
+    Frontend / Dashboard: Streamlit
 
-## 🛠️ Tech Stack
+    Data Visualization: Plotly Express
 
-* **Frontend / Dashboard:** Streamlit
-* **Data Visualization:** Plotly Express
-* **API Integration:** Python Requests (GitHub REST API v3)
-* **Data Handling:** Pandas, Datetime (ISO 8601 parsing)
+    API Integration: Python Requests (GitHub REST API v3)
 
----
+    Data Handling: Pandas, Datetime (ISO 8601 parsing)
 
-## 🚀 Quickstart
+🚀 Quickstart
 
-1. **Clone the repository:**
-```bash
-git clone [https://github.com/michaelakandwanahorugomoka/github-health-analyzer.git](https://github.com/michaelakandwanahorugomoka/github-health-analyzer.git)
-cd github-health-analyzer
+    Clone the repository:
+    Bash
 
-```
+    git clone [https://github.com/michaelakandwanahorugomoka/github-health-analyzer.git](https://github.com/michaelakandwanahorugomoka/github-health-analyzer.git)
+    cd github-health-analyzer
 
+    Set up virtual environment:
+    PowerShell
 
-2. **Set up virtual environment:**
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate
+    python -m venv venv
+    .\venv\Scripts\Activate
 
-```
+    Install dependencies:
+    PowerShell
 
+    pip install -r requirements.txt
 
-3. **Install dependencies:**
-```powershell
-pip install -r requirements.txt
+    Run the Streamlit application:
+    PowerShell
 
-```
+    streamlit run app.py
 
+📄 License
 
-4. **Run the Streamlit application:**
-```powershell
-streamlit run app.py
-
-```
-
-
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See LICENSE for more information.
